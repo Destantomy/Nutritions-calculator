@@ -1,0 +1,54 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap");
+
+body {
+  margin: 0;
+  font-family: 'Quicksand';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.calculator-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 10vh;
+  padding: 20px;
+  border: 2px solid #000;
+  max-width: 400px;
+  margin: 30px auto;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input, select, button {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  align-self: center;
+  cursor: pointer;
+}
+
+.result-container {
+  margin-top: 20px;
+  text-align: left;
+}
+
